@@ -2,7 +2,7 @@ import createDataContext from './createDataContext';
 import jsonServer from '../api/jsonServer';
 
 
-const blogReducer = (state, action) => {
+const blogReducer =  (state, action) => {
     switch(action.type) {
         case 'get_blogposts':
             return action.payload;
